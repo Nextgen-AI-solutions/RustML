@@ -1,0 +1,19 @@
+[package]
+name = "ml-utils"
+version = "0.1.0"
+authors = ["Techseeker-404 <anandml4u@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+serde = "1"
+serde_derive = "1"
+rand = "0.6.5"
+ndarray = "0.12.1"
+itertools = "0.8.0"
+num-traits = "0.2.6"
+
+[dev-dependencies]
+csv = "1.0.6"

@@ -1,0 +1,15 @@
+[package]
+name = "classify"
+version = "0.1.0"
+authors = ["Techseeker-404 <anandml4u@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustlearn = "0.5.0"
+csv = "1.0.5"
+serde = "1.0.89"
+serde_derive = "1.0.89"
+rand = "0.6"
+ml-utils = { path = "../ml-utils" }
